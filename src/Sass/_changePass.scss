@@ -1,0 +1,47 @@
+.changePass_button{
+    width: 80%;
+    height: 55px;
+    margin-top: 20px; //for moving forget password
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #e74c3c;
+    font-size: large;
+}
+.changePass_link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.para_head{
+    margin: 8px 0px 15px 0px;
+    color: blue;
+}
+.changePass_email{
+    width: 80%;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.changePass_password{
+    width: 80%;
+    height: 32px;
+    margin: 20px;
+    // margin-top: 15px;
+    // margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.changePass_confirm_password{
+    width: 80%;
+    height: 32px;
+   
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.err_text{
+    margin: 5px 0px 5px 0px;
+    color: red;
+    font-size: 20px;
+}

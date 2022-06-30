@@ -1,0 +1,48 @@
+// .form{
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.form_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+}
+
+.email{
+    width: 80%;
+    height: 40px;
+    margin-top: 40px ;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.password{
+    width: 80%;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.button{
+    width: 80%;
+    height: 55px;
+    margin-top: 20px; //for moving forget password
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #0984e3;
+    font-size: large;
+}
+.checkbox{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+.forget_pass{
+    margin-top: 60px;
+    color: white;
+}

@@ -1,0 +1,59 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.login_popup{
+    width: 45vw;
+    height: 65vh;
+    border-radius: 4px;
+    background-color: white;
+    //display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.login_head{
+    display: flex;
+}
+.signin_div{
+    width: 50%;
+    height: 70px;
+    //border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background-color: rgb(166, 194, 185);
+}
+.signup_div{
+    width: 50%;
+    height: 70px;
+    //border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(166, 194, 185);
+}
+.active{
+    background-color: rgb(166, 194, 185);
+}
+
+.error_msg{
+    margin: 5px 0px 5px 0px;
+    color: red;
+    font-size: 20px;
+}
